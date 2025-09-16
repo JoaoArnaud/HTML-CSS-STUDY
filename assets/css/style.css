@@ -51,6 +51,7 @@ header a {
     background-color: #1f2937;
     margin: 0px;
     padding: 30px;
+    padding-bottom: 100px;
 }
 
 .left-c1 {
@@ -85,6 +86,51 @@ header a {
     margin-top: 10px;
 }
 
+.second-container h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 24px;
+    padding-bottom: 10px;
+}
+
+.second-container img {
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    max-width: 150px;
+}
+
+.second-container ul {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    list-style: none;
+}
+
+.second-container li {
+    max-width: 150px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.third-container {
+    background-color: #e5e7eb;
+    display: flex;
+    padding: 150px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-container .quote {
+    font-weight: 300;
+    font-size: 36px;
+    color: #1f2937;
+    padding-left: 110px;
+}
+
+.third-container .author {
+    align-self: end;
+    margin-right: 100px;
+}
 footer {
     display: flex;
     justify-content: center;
