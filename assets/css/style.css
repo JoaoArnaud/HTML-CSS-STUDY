@@ -131,6 +131,48 @@ header a {
     align-self: end;
     margin-right: 100px;
 }
+
+.fourth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    color: #f9faf8;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 60px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.call-to-action h1 {
+    font-size: 24px;
+}
+
+.call-to-action p {
+    color: #e5e7eb;
+    padding-right: 100px;
+    font-size: 18px;
+}
+
+.call-to-action button {
+    background-color: #3882f6;
+    border: 3px solid #f9faf8;
+    color: #f9faf8;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    width: 200px;
+}
+
 footer {
     display: flex;
     justify-content: center;
